@@ -3,6 +3,7 @@ import functions
 import time
 
 time_format = time.strftime("%a,%d-%m-%Y %H:%M:%S")
+print("hi time is below")
 print(f"Hi today date and time is:-{time_format}")
 
 
