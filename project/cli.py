@@ -19,7 +19,7 @@ while True:
 
         todos= functions.get_todos()
 
-        todos.append(todo + "\n")
+        todos.append(todo )
 
         functions.write_todos(todos)
 
